@@ -1,0 +1,80 @@
+html,body {
+    background: #000;
+
+}
+h2{
+margin-left:20px;
+}
+
+#head{
+    border:2px solid black;
+    height: 150px;
+    text-align: center;
+    font-family: cursive;
+    color: #a0917b;
+    
+
+}
+
+.container{
+    border:2px solid  rgb(190, 150, 190);
+    height: 330px;
+    margin:20px;
+    text-align: center;
+}
+
+.secret_num{
+    margin:30px 2px 2px 2px;
+    font-size: 2.5rem;
+    color: rgb(190, 150, 190);
+    text-shadow:8px 8px 8px whitesmoke;
+/* transition: 0.8s; */
+    animation: bounce 2s linear infinite;
+
+}
+
+
+@keyframes bounce{
+    0%{
+        transform: translateY(0px);
+    }
+    50%{
+        transform: translateY(-10px);
+    }
+    100%{
+        transform: translateY(0px);
+    }
+}
+
+
+
+#msg{
+    margin-top: 10px;
+    padding:10px;
+    font-size: 2rem;
+    font-family: cursive;
+    color: rgb(174, 150, 196);
+    text-shadow: 8px 8px 16px rgb(180, 124, 124);
+}
+
+#input{
+    margin-top: 25px;
+    padding: 10px;
+    background: rgb(196, 161, 196);
+}
+
+#btn{
+     margin-top: 30px;
+    padding: 17px;
+    font-size:1.2rem;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(190, 150, 190);
+    color: #855207;
+    cursor: pointer; 
+    
+}
+
+#btn:hover{
+    color: #000;
+}
